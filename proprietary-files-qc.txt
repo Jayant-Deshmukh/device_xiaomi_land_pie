@@ -523,7 +523,7 @@ vendor/lib64/vendor.qti.hardware.radio.uim_remote_server@1.0_vendor.so
 vendor/radio/qcril_database/qcril.db
 
 # Radio - IMS - from tissot - OPR1.170623.026.V9.5.4.0.ODHMIFA
--app/ims/ims.apk|406f0c50b44480789072222a6ba120894dc02394
+-app/ims/ims.apk
 -app/imssettings/imssettings.apk
 -app/uceShimService/uceShimService.apk
 etc/permissions/qti-vzw-ims-internal.xml
