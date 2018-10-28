@@ -1,32 +1,36 @@
-# Common device configuration for Xiaomi Redmi 3S
 
-## Spec Sheet
+ Device Tree Repository for Xiaomi Redmi 3S/3X/Prime (Land)
+======
+Device specifications
+======
 
-| Feature                 | Specification                     |
-| :---------------------- | :-------------------------------- |
-| CPU                     | Octa-core 1.4 GHz Cortex-A53      |
-| Chipset                 | Qualcomm MSM8937 Snapdragon 430   |
-| GPU                     | Adreno 505                        |
-| Memory                  | 2/3 GB                            |
-| Shipped Android Version | 6.0.1                             |
-| Storage                 | 16/32 GB                          |
-| MicroSD                 | Up to 256 GB                      |
-| Battery                 | 4100 mAh (non-removable)          |
-| Dimensions              | 139.3 x 69.6 x 8.5 mm             |
-| Display                 | 720 x 1280 pixels, 5.0" IPS LCD   |
-| Rear Camera             | 13 MP, LED flash                  |
-| Front Camera            | 5 MP                              |
-| Release Date            | June 2016                         |
+Basic   | Spec Sheet
+-------:|:-------------------------
+Chipset | Qualcomm MSM8937 Snapdragon 430
+CPU     | Octa-core (4x1.40 GHz Cortex-A53 & 4x1.09 GHz Cortex-A53)
+GPU     | Adreno 505 (450 MHz)
+Memory  | 2/3 GB RAM (LPDDR3 800 MHz)
+Shipped Android Version | 6.0.1 (MIUI 7)
+Storage | 16/32 GB (eMMC 5.0/5.1 flash)
+MicroSD | up to 256 GB (uses SIM 2 slot)
+Battery | Li-Po 4100 mAh (Non-removable)
+Dimensions | 139.3 x 69.6 x 8.5 mm
+Display | 1280 x 720 pixels, 5.0 inches (~294 ppi pixel density)
+Rear Camera  | 13 MP, f/2.0, phase detection autofocus, LED flash
+Front Camera | 5 MP, f/2.2
 
-## Device Picture
+Device picture
+======
 
-![Redmi 3S](http://cdn2.gsmarena.com/vv/pics/xiaomi/xiaomi-redmi-3-pro-2.jpg "Redmi 3S")
+![Xiaomi Redmi 3S/Prime/3X](http://i01.appmifile.com/webfile/globalimg/en/goods/hongmi3s/specs-preview-06.jpg "Xiaomi Redmi 3S/Prime/3X")
 
-## Copyright
 
-```
+Copyright
+======
+
+```bash
 #
-# Copyright (C) 2016 The CyanogenMod Project
+# Copyright (C) 2017-2018 The LineageOS Project
 #
 # Licensed under the Apache License, Version 2.0 (the "License");
 # you may not use this file except in compliance with the License.
@@ -40,3 +44,4 @@
 # See the License for the specific language governing permissions and
 # limitations under the License.
 #
+```
