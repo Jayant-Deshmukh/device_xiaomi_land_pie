@@ -24,9 +24,6 @@ $(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
 # Inherit some common Superior stuff
 $(call inherit-product, vendor/superior/config/common.mk)
 
-# Gapps
-TARGET_GAPPS_ARCH := arm64
-
 # Inherit from land device
 $(call inherit-product, $(DEVICE_PATH)/device.mk)
 
