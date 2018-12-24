@@ -47,6 +47,18 @@
             <instance>default</instance>
         </interface>
     </hal>
+    <hal format="hidl" optional="true">
+        <name>com.qualcomm.qti.wifidisplayhal</name>
+        <version>1.0</version>
+        <interface>
+            <name>IHDCPSession</name>
+            <instance>wifidisplayhdcphal</instance>
+        </interface>
+        <interface>
+            <name>IDSManager</name>
+            <instance>wifidisplaydshal</instance>
+        </interface>
+    </hal>
     <hal format="hidl" optional="false">
         <name>android.hidl.memory</name>
         <version>1.0</version>

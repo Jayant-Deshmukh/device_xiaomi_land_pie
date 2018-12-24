@@ -70,6 +70,7 @@ PRODUCT_PACKAGES += \
     audio.primary.msm8937 \
     audio.r_submix.default \
     audio.usb.default \
+    libaacwrapper \
     libaudio-resampler \
     libqcomvisualizer \
     libqcomvoiceprocessing \
@@ -445,3 +446,7 @@ PRODUCT_COPY_FILES += \
 # Launcher3
 PRODUCT_PACKAGES += \
     Launcher3QuickStep
+
+# Wi-Fi Display
+PRODUCT_BOOT_JARS += \
+    WfdCommon

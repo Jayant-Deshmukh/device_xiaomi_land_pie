@@ -200,6 +200,7 @@ net.tcp.2g_init_rwnd=10
 
 # Usb
 PRODUCT_PROPERTY_OVERRIDES += \
+vendor.video.disable.ubwc=1 \
 persist.sys.usb.config.extra=none
 
 # Trim properties
