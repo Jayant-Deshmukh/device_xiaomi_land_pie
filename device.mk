@@ -443,10 +443,6 @@ PRODUCT_COPY_FILES += \
     $(DEVICE_PATH)/wifi/WCNSS_cfg.dat:system/etc/firmware/wlan/prima/WCNSS_cfg.dat \
     $(DEVICE_PATH)/wifi/WCNSS_qcom_cfg.ini:$(TARGET_COPY_OUT_VENDOR)/etc/wifi/WCNSS_qcom_cfg.ini
 
-# Launcher3
-PRODUCT_PACKAGES += \
-    Launcher3QuickStep
-
 # Wi-Fi Display
 PRODUCT_BOOT_JARS += \
     WfdCommon
